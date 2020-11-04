@@ -1,0 +1,3 @@
+rootProject.name='SoulDemo'
+include ':app', ':IMLib', ':CallLib'
+include ':framework'
