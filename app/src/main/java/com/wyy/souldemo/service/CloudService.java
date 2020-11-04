@@ -335,6 +335,10 @@ public class CloudService extends Service implements View.OnClickListener {
                     } else if (textBean.getType().equals(CloudManager.TYPE_ADD_FRIEND)) {
                         //存入本地数据库
                         LogUtils.i("添加好友消息");
+                        LogUtils.i("添加好友消息");
+                        LogUtils.i("添加好友消息");
+                        LogUtils.i("添加好友消息");
+                        LogUtils.i("添加好友消息");
                         LitePalHelper.getInstance().saveNewFriend(
                                 textBean.getMsg(), message.getSenderUserId());
 
